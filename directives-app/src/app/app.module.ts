@@ -21,6 +21,7 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { SubNgIfComponent } from './ng-if/sub-ng-if/sub-ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
+import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
     NgIfComponent,
     SubNgIfComponent,
     NgForComponent,
-    NgForFormComponent
+    NgForFormComponent,
+    NgSwitchComponent
   ],
   imports: [
     BrowserModule,
