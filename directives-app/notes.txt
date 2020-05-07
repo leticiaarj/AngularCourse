@@ -21,8 +21,49 @@ Extra dos Arquivos .ts :
 * Queries: Consultas que podem ser injetadas no componente.
 * ViewProviders: Lista de provedores disponíveis para este componente e sua respectiva view Children.
 
-Criando componente -> ng g c
+Criando componente -> ng g c.
 
-Abrindo o servidor -> ng serve
+Abrindo o servidor -> ng serve.
 
-Criando um componente dentro do outro (Sub-componente) -> ng g c componente/nome sub-componente
+Criando um componente dentro do outro (Sub-componente) -> ng g c componente/nome sub-componente.
+
+* Ng-content: Utilizado para projeção de conteúdo, permite passar qualquer conteúdo entre as tags 
+de abertura e fechamento do componente criado.
+
+* Ng-click: O ng-click é uma diretiva que irá fazer algo quando um evento de click for disparado 
+no elemento em que ela se encontra.
+
+* Ng-Model: A diretiva ngModel vincula uma entrada, seleção, área de texto à uma propriedade no 
+escopo (.ts) usando NgModelController, que é criado e exposto por esta diretiva.
+
+* Ng-Options: O atributo ngOptions pode ser usado para gerar dinamicamente uma lista de elementos 
+<option> para o elemento <select> usando a matriz ou o objeto obtido avaliando a expressão de 
+compreensão ngOptions.
+
+* Ng-Class: A diretiva ngClass permite definir dinamicamente as classes CSS em um elemento HTML 
+vinculando uma expressão que representa todas as classes a serem adicionadas.
+
+* Ng-For: O for normal.
+
+* Ng-Template: Define um template a ser usado, geralmente vem com o #NomeDoTemplate. 
+Muito associado ao NgIf para fazer o else.
+
+* Ng-Container: Para associar duas diretivas estruturais, tipo for e if.
+
+*Ng-Form: A Diretiva de formulário ng no AngularJS é usada para criar um formulário aninhado, 
+ou seja, um formulário dentro do outro formulário. Ele especifica um controle de herança do 
+formulário HTML. Ele cria um grupo de controle dentro de uma diretiva de formulário que pode 
+ser usada para determinar a validade de um subgrupo de controles.
+
+*Ng-If: O if normal.
+
+*Ng-Style: Uma diretiva de atributo que atualiza estilos para o elemento HTML que contém. 
+Define uma ou mais propriedades de estilo, especificadas como pares de valores-chave separados
+por dois pontos. O valor de uma expressão é avaliado. O valor não nulo resultante, expresso na 
+unidade especificada, é atribuído à propriedade de estilo especificada. Se o resultado da avaliação 
+for nulo, o estilo correspondente será removido.
+
+*ng-Switch: Switch normal.
+
+
+
