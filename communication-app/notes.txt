@@ -1,0 +1,5 @@
+* Placeholder do Input: O espaço reservado é o texto mostrado quando o rótulo <mat-form-field> está flutuando, 
+mas a entrada está vazia. É usado para fornecer ao usuário uma dica adicional sobre o que ele deve digitar na entrada. 
+O espaço reservado pode ser especificado, definindo o atributo do espaço reservado no elemento <input> ou <textarea>. 
+Em alguns casos, o <mat-form-field> pode usar o espaço reservado como rótulo (consulte a documentação do rótulo do 
+campo do formulário).

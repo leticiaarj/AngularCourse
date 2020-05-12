@@ -17,5 +17,6 @@ export class EventComponent implements OnInit {
 
   incBy(event){
     console.log(event);
+    this.value += event;
   }
 }
