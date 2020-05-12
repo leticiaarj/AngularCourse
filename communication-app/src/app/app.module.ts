@@ -16,6 +16,7 @@ import {MatInputModule} from '@angular/material/input';
 
 import { ChildItemComponent } from './event/child-item/child-item.component';
 import { ClientsComponent } from './clients/clients.component';
+import { ItemClientComponent } from './clients/item-client/item-client.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ClientsComponent } from './clients/clients.component';
     ClientComponent,
     EventComponent,
     ChildItemComponent,
-    ClientsComponent
+    ClientsComponent,
+    ItemClientComponent
   ],
   imports: [
     BrowserModule,

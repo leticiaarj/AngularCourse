@@ -3,3 +3,15 @@ mas a entrada está vazia. É usado para fornecer ao usuário uma dica adicional
 O espaço reservado pode ser especificado, definindo o atributo do espaço reservado no elemento <input> ou <textarea>. 
 Em alguns casos, o <mat-form-field> pode usar o espaço reservado como rótulo (consulte a documentação do rótulo do 
 campo do formulário).
+
+* EventEmitter: Use em componentes com a diretiva @Output para emitir eventos personalizados de forma síncrona ou 
+assíncrona e registrar manipuladores para esses eventos, assinando uma instância.
+    - Emit() - Emite um evento que contém um determinado valor.
+    - Submit() - Registra manipuladores para eventos emitidos por esta instância.
+
+* @Output: Decorador que marca um campo de classe como uma propriedade de saída e fornece metadados de configuração. 
+A propriedade DOM vinculada à propriedade de saída é atualizada automaticamente durante a detecção de alterações.
+
+* @Input: Decorador que marca um campo de classe como uma propriedade de entrada e fornece metadados de configuração. 
+A propriedade de entrada está vinculada a uma propriedade DOM no modelo. Durante a detecção de alterações, o Angular 
+atualiza automaticamente a propriedade data com o valor da propriedade DOM.
