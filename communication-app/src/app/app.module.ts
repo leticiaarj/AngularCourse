@@ -23,6 +23,8 @@ import { ClientComponent } from './input-binding/client/client.component';
 import { EventComponent } from './event/event.component';
 import { OnChangesComponent } from './on-changes/on-changes.component';
 import { NameChangesComponent } from './on-changes/name-changes/name-changes.component';
+import { InterceptingComponent } from './intercepting/intercepting.component';
+import { NameComponent } from './intercepting/name/name.component';
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import { NameChangesComponent } from './on-changes/name-changes/name-changes.com
     ParentChildComponent,
     TimerComponent,
     OnChangesComponent,
-    NameChangesComponent
+    NameChangesComponent,
+    InterceptingComponent,
+    NameComponent
   ],
   imports: [
     BrowserModule,
