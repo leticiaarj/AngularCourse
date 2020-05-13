@@ -15,3 +15,7 @@ A propriedade DOM vinculada à propriedade de saída é atualizada automaticamen
 * @Input: Decorador que marca um campo de classe como uma propriedade de entrada e fornece metadados de configuração. 
 A propriedade de entrada está vinculada a uma propriedade DOM no modelo. Durante a detecção de alterações, o Angular 
 atualiza automaticamente a propriedade data com o valor da propriedade DOM.
+
+* setInterval() - O método setInterval () chama uma função ou avalia uma expressão em intervalos especificados (em milissegundos).
+O método setInterval () continuará chamando a função até que clearInterval () seja chamado ou a janela seja fechada.O valor do ID 
+retornado por setInterval () é usado como parâmetro para o método clearInterval ().
