@@ -1,0 +1,31 @@
+Hook: Seu aplicativo pode usar métodos de hook do ciclo de vida para explorar 
+os principais eventos no ciclo de vida de um componente ou diretiva para inicializar 
+novas instâncias, iniciar a detecção de alterações quando necessário, responder a 
+atualizações durante a detecção de alterações e limpar antes da exclusão de instâncias.
+Você pode responder a eventos no ciclo de vida de um componente ou diretiva implementando 
+uma ou mais das interfaces de hook do ciclo de vida na biblioteca principal Angular. 
+Os hooks oferecem a oportunidade de agir em uma instância de componente ou diretiva no 
+momento apropriado, à medida que o Angular cria, atualiza ou destrói essa instância.
+Cada interface define o protótipo para um método de hook único, cujo nome é o nome 
+da interface prefixado com ng. Depois que seu aplicativo instancia um componente ou 
+diretiva chamando seu construtor, Angular chama os métodos de hook que você implementou
+no ponto apropriado no ciclo de vida dessa instância.Angular executa métodos de hook 
+na seguinte sequência. Você pode usá-los para executar os seguintes tipos de operações.
+    1- ngOnChanges(): Responde quando o Angular define ou redefine as propriedades de 
+    entrada associadas a dados. O método recebe um objeto SimpleChanges dos valores atuais 
+    e anteriores da propriedade. Observe que isso acontece com muita frequência; portanto, 
+    qualquer operação realizada aqui afeta significativamente o desempenho.
+    2- ngOnInit(): Se você implementar esse método em sua classe de componente ou diretiva,
+     o Angular o chamará logo após verificar as propriedades de entrada desse componente ou 
+     diretiva pela primeira vez.
+    3- ngDoCheck(): Detecte e aja de acordo com as mudanças que o Angular não pode ou não 
+    irá detectar por si só. 
+    4- ngAfterContentInit(): Responde depois que o Angular projeta conteúdo externo na exibição 
+    do componente ou na exibição da diretiva.
+    5- ngAfterContentChecked(): Responde depois que o Angular verifica o conteúdo projetado na diretiva ou componente.
+    6- ngAfterViewInit(): Responde depois que Angular inicializa as visualizações do componente e do componente filho, 
+    ou a exibição que contém a diretiva.
+    7- ngAfterViewChecked(): Responde depois que o Angular verifica as visualizações do componente e filho, ou a visão 
+    que contém a diretiva.
+    8- ngOnDestroy(): Limpa imediatamente antes do Angular destruir a diretiva ou componente. Cancela a assinatura 
+    de Observables e desanexe manipuladores de eventos para evitar vazamentos de memória.
